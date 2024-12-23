@@ -19,9 +19,14 @@
         <center>
             <div class="col-8">
                 <br/><br/>
-                <form method="POST" action="{% url 'login' %}">
+                <form method="POST" action="{% url 'register' %}">
                     {% csrf_token %}
-                    
+
+                    {{ form.as_p }}
+                    <br/><br/>
+                    <button type="submit" class="btn btn-secondary">
+                    Register
+                    </button>
                   </form>
                 
                 <br/><br/>
