@@ -22,9 +22,10 @@ The **Product Management System** is a Django-based web application designed to 
 - **Database**: SQLite (configurable for other databases)
 - **Frontend**: HTML, CSS (for basic templates)
 - **Version Control**: Git
+```markdown
 
 ## Installation and Setup
-```markdown
+
 
 Follow these steps to set up the project locally:
 
