@@ -1,5 +1,5 @@
 <h1>Django Ecommerce Website</h1>
-Here's the full content for your `README.md` file in code form:
+
 
 ```markdown
 # Product Management System
@@ -97,4 +97,3 @@ product-management-system/
 This project is licensed under the MIT License. See the `LICENSE` file for more details.
 ```
 
-Copy this content into your `README.md` file in your GitHub repository. Be sure to replace placeholders like `username` with your actual GitHub username and adjust any other details as needed.
