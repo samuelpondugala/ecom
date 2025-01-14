@@ -22,7 +22,7 @@ The **Product Management System** is a Django-based web application designed to 
 - **Database**: SQLite (configurable for other databases)
 - **Frontend**: HTML, CSS (for basic templates)
 - **Version Control**: Git
-```markdown
+
 
 ## Installation and Setup
 
@@ -30,34 +30,35 @@ The **Product Management System** is a Django-based web application designed to 
 Follow these steps to set up the project locally:
 
 1. **Clone the repository**:
+   
    ```bash
    git clone https://github.com/username/product-management-system.git
    cd product-management-system
    ```
 
-2. **Create a virtual environment**:
+3. **Create a virtual environment**:
    ```bash
    python -m venv env
    source env/bin/activate  # On Windows use `env\Scripts\activate`
    ```
 
-3. **Install dependencies**:
+4. **Install dependencies**:
    ```bash
    pip install -r requirements.txt
    ```
 
-4. **Run migrations**:
+5. **Run migrations**:
    ```bash
    python manage.py makemigrations
    python manage.py migrate
    ```
 
-5. **Start the development server**:
+6. **Start the development server**:
    ```bash
    python manage.py runserver
    ```
 
-6. **Access the application**: Visit `http://localhost:8000` in your web browser.
+7. **Access the application**: Visit `http://localhost:8000` in your web browser.
 
 ## Usage
 
