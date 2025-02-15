@@ -25,7 +25,7 @@
                             <!--Sale badge-->
                             <div class = "badge bg-white text-black position-absolute" style="top: 0.5rem; right: 0.5rem">Sale</div>
                             <!-- Product image-->
-                            <img class="card-img-top" src="{{ product.image.url }}" alt="..." style = " padding:25px "/>
+                            <img class="card-img-top" src="{{ product.image.url }}" alt="..." style = " padding:35px"/>
                             <!-- Product details-->
                             <div class="card-body p-4">
                                 <div class="text-center">
@@ -46,8 +46,7 @@
                                     ${{ product.price }}
                                     </strike>
                                     &nbsp; ${{ product.sale_price }}
-                                    <br/>
-                                    {{ product.description }}
+                                    
                                     <br/>
                                     In: {{ product.category }}
                                 </div>
