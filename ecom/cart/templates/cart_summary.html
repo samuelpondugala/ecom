@@ -52,14 +52,14 @@
                       {% endif %}
                         <br/><br/>
                         <div class="row justify-content-center">
-                          <div class="col-md-2">Quantity</div>
+                          <div class="col-md-2">Quantity:</div>
                           <div class="col-md-2">
-                        <select class="form-select form-select-sm" id = "qty-cart">
+                        <select class="form-select form-select-sm" id = "select{{product.id}}">
                           <option selected>
                             
                             {% for key, value in quantites.items %}
                               {% if key == product.id|slugify %}
-                                {{ value }}
+                              <option selected>{{ value }}</option>
                               {% endif %}
                             {% endfor %}
                           </option>
