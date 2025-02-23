@@ -95,6 +95,9 @@ product-management-system/
 3. Commit your changes and push to your branch.
 4. Submit a pull request detailing your changes.
 
+
+![Alt](https://repobeats.axiom.co/api/embed/e8c006db0475f2cddede63445e21215da2637331.svg "Repobeats analytics image")
+
 ## License
 
 This project is licensed under the MIT License. See the `LICENSE` file for more details.
